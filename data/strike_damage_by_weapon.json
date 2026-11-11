@@ -1,0 +1,29 @@
+{
+ "by_weapon_usd_bn": {
+  "ballistic": {
+   "base": 10.72,
+   "low": 3.609,
+   "high": 32.44,
+   "rows": 10
+  },
+  "cruise": {
+   "base": 0.077,
+   "low": 0.0,
+   "high": 0.699,
+   "rows": 2
+  },
+  "one_way_drone": {
+   "base": 2.807,
+   "low": 0.47,
+   "high": 9.096,
+   "rows": 29
+  },
+  "unknown": {
+   "base": 3.038,
+   "low": 1.399,
+   "high": 8.802,
+   "rows": 20
+  }
+ },
+ "note": "Strike damage (repairs plus lost output) at struck fixed sites, base/low/high, US$bn, cost model as of 2 November 2026. Weapon is as reported; \"unknown\" means no weapon confirmed."
+}

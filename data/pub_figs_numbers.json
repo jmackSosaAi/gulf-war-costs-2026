@@ -1,0 +1,231 @@
+{
+ "fig_damage": {
+  "total_bn": 16.64,
+  "by_weapon": {
+   "Ballistic missiles": 10.72,
+   "Unknown": 3.11,
+   "Drones": 2.81
+  },
+  "by_state": {
+   "Qatar": 9.57,
+   "UAE": 2.71,
+   "Kuwait": 1.73,
+   "Bahrain": 1.69,
+   "Saudi Arabia": 0.94
+  },
+  "top_sites": [
+   {
+    "state": "Qatar",
+    "site": "Ras Laffan LNG Trains 4 and 6",
+    "base_usd_m": 9264.0
+   },
+   {
+    "state": "Kuwait",
+    "site": "Kuwait refining system (MAA, MAB, Shuaiba) aggregate",
+    "base_usd_m": 1403.83
+   },
+   {
+    "state": "UAE",
+    "site": "Emirates Global Aluminium Al Taweelah smelter",
+    "base_usd_m": 1008.44
+   },
+   {
+    "state": "Bahrain",
+    "site": "Bapco Sitra refinery",
+    "base_usd_m": 956.52
+   },
+   {
+    "state": "UAE",
+    "site": "Habshan gas complex (ADNOC Gas)",
+    "base_usd_m": 593.1
+   },
+   {
+    "state": "Saudi Arabia",
+    "site": "SATORP refinery, Jubail",
+    "base_usd_m": 417.07
+   }
+  ],
+  "_source": "data/strike_damage_by_site.csv and strike_damage_by_weapon.json (author's cost model as of 2 Nov 2026; base case; inputs largely assumptions)"
+ },
+ "fig_exports_state": {
+  "Qatar": {
+   "loss_bn": 42.32,
+   "price_gain_bn": 5.02,
+   "net_bn": -37.3,
+   "loss_pct_of_2025_baseline": 70.8
+  },
+  "Kuwait": {
+   "loss_bn": 17.24,
+   "price_gain_bn": 8.01,
+   "net_bn": -9.23,
+   "loss_pct_of_2025_baseline": 36.1
+  },
+  "Bahrain": {
+   "loss_bn": 2.12,
+   "price_gain_bn": 0.34,
+   "net_bn": -1.79,
+   "loss_pct_of_2025_baseline": 61.3
+  },
+  "Saudi": {
+   "loss_bn": 27.91,
+   "price_gain_bn": 44.19,
+   "net_bn": 16.28,
+   "loss_pct_of_2025_baseline": 15.7
+  },
+  "UAE": {
+   "loss_bn": 6.1,
+   "price_gain_bn": 21.37,
+   "net_bn": 15.27,
+   "loss_pct_of_2025_baseline": 8.2
+  },
+  "Oman": {
+   "loss_bn": 0.0,
+   "price_gain_bn": 6.66,
+   "net_bn": 6.66,
+   "loss_pct_of_2025_baseline": 0.0
+  },
+  "_source": "data/export_losses_by_state.csv (our calculation on EIA production estimates and 2025 prices)"
+ },
+ "fig_exports_time": {
+  "Q1": {
+   "LNG": 4.12,
+   "Oil and liquids": 7.35
+  },
+  "Q2": {
+   "LNG": 12.22,
+   "Oil and liquids": 38.57
+  },
+  "Q3": {
+   "LNG": 10.38,
+   "Oil and liquids": 23.06
+  },
+  "_source": "data/export_losses_tidy.csv, rows in the headline; monthly LNG rows mapped to quarters"
+ },
+ "fig_layers": {
+  "Sales not made": 95.69,
+  "Value lost for good": 60.78,
+  "Profit lost": 51.32,
+  "State revenue lost": 47.34,
+  "_source": "data/export_losses_by_state.csv total row; layers rest on assumed deferral shares (0.5 oil, 0.15 LNG), time value and avoidable cost"
+ },
+ "fig_straits": {
+  "latest_date": "2026-11-08",
+  "hormuz_all_8Mar_latest": {
+   "mean_2026": 6.11,
+   "mean_2025": 94.63,
+   "change_pct": -93.5
+  },
+  "hormuz_tanker_8Mar_latest": {
+   "mean_2026": 2.39,
+   "mean_2025": 53.31,
+   "change_pct": -95.5
+  },
+  "hormuz_july": {
+   "mean_2026": 10.19,
+   "mean_2025": 95.23,
+   "change_pct": -89.3
+  },
+  "hormuz_aug": {
+   "mean_2026": 4.71,
+   "mean_2025": 94.52,
+   "change_pct": -95.0
+  },
+  "hormuz_oct": {
+   "mean_2026": 3.81,
+   "mean_2025": 89.42,
+   "change_pct": -95.7
+  },
+  "babm_mar_jul": {
+   "mean_2026": 35.72,
+   "mean_2025": 32.37,
+   "change_pct": 10.3
+  },
+  "babm_aug_latest": {
+   "mean_2026": 27.23,
+   "mean_2025": 35.28,
+   "change_pct": -22.8
+  },
+  "reopening_peak_7d": {
+   "date": "2026-06-29",
+   "pct_of_2025": 31.0
+  },
+  "premiums": [
+   {
+    "date": "2026-03-10",
+    "low": 1.0,
+    "high": 3.0,
+    "source": "Reuters 6 Mar (3% on most tankers); Caixin 7 Mar (1%)"
+   },
+   {
+    "date": "2026-06-25",
+    "low": 2.0,
+    "high": 4.0,
+    "source": "FT-cited brokers via Insurance Business 25 Jun (about 2%); Marsh via S&P 23 Jun (3\u20134%)"
+   },
+   {
+    "date": "2026-07-10",
+    "low": 2.0,
+    "high": 6.0,
+    "source": "Marsh (Baker) via Insurance Business 10 Jul"
+   },
+   {
+    "date": "2026-07-22",
+    "low": 7.5,
+    "high": 10.0,
+    "source": "S&P Global 22 Jul, quoted by Al Jazeera 23 Jul"
+   },
+   {
+    "date": "2026-10-07",
+    "low": 6.0,
+    "high": 10.0,
+    "source": "FT-cited brokers, week of 5\u20139 Oct, via Insurance Business 14 Oct"
+   }
+  ],
+  "_source": "IMF PortWatch daily chokepoint transit calls (data/strait_traffic_daily.csv); 7-day mean for Hormuz, 28-day for Bab el-Mandeb"
+ },
+ "fig_routes": {
+  "rows": [
+   {
+    "label": "Through Hormuz, before the war",
+    "mbd": 21.6,
+    "note": "Oct\u2013Dec 2025"
+   },
+   {
+    "label": "Through Hormuz, Apr\u2013Jun 2026",
+    "mbd": 4.9,
+    "note": "down 77%"
+   },
+   {
+    "label": "Through Hormuz, September 2026",
+    "mbd": 10.9,
+    "note": "includes cargoes moved ship to ship off Oman"
+   },
+   {
+    "label": "Saudi pipeline to the Red Sea",
+    "mbd": 5.0,
+    "note": "before a September attack"
+   },
+   {
+    "label": "UAE pipeline to Fujairah",
+    "mbd": 1.8,
+    "note": "April loadings"
+   },
+   {
+    "label": "Oil not produced at all",
+    "mbd": 10.9,
+    "note": "May peak; 2.5 by October"
+   }
+  ],
+  "_source": "EIA Short-Term Energy Outlook Aug 2026 (21.6 and 4.9 mb/d), IEA Oil Market Report Oct 2026 (10.9 mb/d in September, a different method that counts ship-to-ship transfers), Oct 2026 (Saudi East-West pipeline, more than 5.0 mb/d), Nov 2026 (shut-ins 10.9 mb/d May, 2.5 mb/d Oct); Kpler (Fujairah loadings 1.82 mb/d, April). Different months and methods: bars are not additive."
+ },
+ "fig_outlook": {
+  "missiles_left_pct": 70,
+  "drones_left_pct": 40,
+  "odds": {
+   "renewed_war": 35,
+   "harassment": 50,
+   "calm": 15
+  },
+  "_source": "US assessments reported by ISW (13 May 2026) and CSIS (23 Jun 2026); odds are the author's judgment (27 Oct 2026)"
+ }
+}

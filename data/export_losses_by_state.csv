@@ -1,0 +1,33 @@
+scope,state,commodity,n_rows,loss_usd_low,loss_usd_base,loss_usd_high,price_windfall_usd,net_revenue_change_base_usd,windfall_covers_loss,windfall_to_loss_ratio,baseline_2025_value_usd,loss_pct_of_2025_baseline,share_of_headline_base_pct,share_of_headline_high_pct,destroyed_usd_base,deferred_usd_base,time_value_usd_base,economic_value_lost_usd_base,margin_lost_usd_base,fiscal_take_lost_usd_base,reliability_mix,econ_low_usd_modeloutput,econ_base_usd_modeloutput,econ_high_usd_modeloutput,margin_low_usd_modeloutput,margin_base_usd_modeloutput,margin_high_usd_modeloutput,fiscal_low_usd_modeloutput,fiscal_base_usd_modeloutput,fiscal_high_usd_modeloutput
+state,Saudi,ALL,4,27912764100,27912764100,46150071300,44194220000,16281455900,yes,1.583,177874319100,15.7,29.17,27.9,13956382050,13956382050,1297532118,15253914168,13047578842,10387915549,"solid 15.5; medium 12.4 (USD bn, base)",6441000000,15253914200,46150000000,5359000000,13047578800,44556000000,3304000000,10387915500,37474000000
+state,Kuwait,ALL,4,17239153500,17239153500,27407191500,8009709600,-9229443900,no,0.465,47739037800,36.1,18.01,16.57,8619576750,8619576750,801366545,9420943295,8265282717,8265282717,"medium 17.2 (USD bn, base)",3978000000,9420943300,27407000000,3318000000,8265282700,26445000000,2849000000,8265282700,26445000000
+state,UAE,ALL,4,6097250970,6097250970,9526278900,21366401400,15269150430,yes,3.504,74470884570,8.2,6.37,5.76,3048625485,3048625485,283432301,3332057786,2744460932,2382421317,"medium 6.1 (USD bn, base)",1407000000,3332057800,9526000000,1159000000,2744460900,9186000000,755000000,2382421300,8514000000
+state,Qatar,ALL,12,42321476114,42321476114,79188273529,5021840257,-37299635857,no,0.119,59769038772,70.8,44.23,47.87,30512143965,11809332149,1097919770,31610063735,26305310860,26305310860,"weak 42.3 (USD bn, base)",17474000000,31610063700,79188000000,13413000000,26305310900,75702000000,11533000000,26305310900,75702000000
+state,Bahrain,ALL,4,2123082930,2123082930,3140156890,335971320,-1787111610,no,0.158,3465728190,61.3,2.22,1.9,1061541465,1061541465,98692064,1160233529,956852973,,"weak 2.1 (USD bn, base)",490000000,1160233500,3140000000,404000000,956853000,3026000000,,,
+state,Oman,ALL,3,0,0,0,6660468800,6660468800,yes,,19488570000,0.0,0.0,0.0,0,0,0,0,0,0,"solid 0.0 (USD bn, base)",0,0,0,0,0,0,0,0,0
+state_x_commodity,Saudi,crude,4,27912764100,27912764100,46150071300,44194220000,16281455900,yes,1.583,177874319100,15.7,29.17,27.9,13956382050,13956382050,1297532118,15253914168,13047578842,10387915549,"solid 15.5; medium 12.4 (USD bn, base)",,,,,,,,,
+state_x_commodity,Kuwait,crude,4,17239153500,17239153500,27407191500,8009709600,-9229443900,no,0.465,47739037800,36.1,18.01,16.57,8619576750,8619576750,801366545,9420943295,8265282717,8265282717,"medium 17.2 (USD bn, base)",,,,,,,,,
+state_x_commodity,UAE,crude,1,0,0,0,0,0,yes,,0,,0.0,0.0,0,0,0,0,0,0," (USD bn, base)",,,,,,,,,
+state_x_commodity,UAE,crude_condensate_NGL,3,6097250970,6097250970,9526278900,21366401400,15269150430,yes,3.504,74470884570,8.2,6.37,5.76,3048625485,3048625485,283432301,3332057786,2744460932,2382421317,"medium 6.1 (USD bn, base)",,,,,,,,,
+state_x_commodity,Qatar,crude,1,0,0,319200000,0,0,yes,,0,,0.0,0.19,0,0,0,0,0,0," (USD bn, base)",,,,,,,,,
+state_x_commodity,Qatar,crude_condensate_NGL,3,15603173520,15603173520,27093995700,3145399680,-12457773840,no,0.202,29121134160,53.6,16.31,16.38,7801586760,7801586760,725317591,8526904351,7021819675,7021819675,"weak 15.6 (USD bn, base)",,,,,,,,,
+state_x_commodity,Qatar,LNG,8,26718302594,26718302594,51775077829,1876440577,-24841862017,no,0.07,30647904612,87.2,27.92,31.3,22710557205,4007745389,372602179,23083159384,19283491185,19283491185,"weak 26.7 (USD bn, base)",,,,,,,,,
+state_x_commodity,Bahrain,crude,4,2123082930,2123082930,3140156890,335971320,-1787111610,no,0.158,3465728190,61.3,2.22,1.9,1061541465,1061541465,98692064,1160233529,956852973,,"weak 2.1 (USD bn, base)",,,,,,,,,
+state_x_commodity,Oman,crude_condensate_NGL,3,0,0,0,6660468800,6660468800,yes,,19488570000,0.0,0.0,0.0,0,0,0,0,0,0,"solid 0.0 (USD bn, base)",,,,,,,,,
+commodity,ALL,crude,14,47275000530,47275000530,77016619690,52539900920,5264900390,yes,1.111,229079085090,20.6,49.4,46.56,23637500265,23637500265,2197590727,25835090992,22269714532,18653198266,"medium 29.6; solid 15.5; weak 2.1 (USD bn, base)",,,,,,,,,
+commodity,ALL,crude_condensate_NGL,9,21700424490,21700424490,36620274600,31172269880,9471845390,yes,1.436,123080588730,17.6,22.68,22.14,10850212245,10850212245,1008749892,11858962137,9766280607,9404240992,"weak 15.6; medium 6.1; solid 0.0 (USD bn, base)",,,,,,,,,
+commodity,ALL,LNG,8,26718302594,26718302594,51775077829,1876440577,-24841862017,no,0.07,30647904612,87.2,27.92,31.3,22710557205,4007745389,372602179,23083159384,19283491185,19283491185,"weak 26.7 (USD bn, base)",,,,,,,,,
+total,ALL,ALL,31,95693727614,95693727614,165411972119,85588611377,-10105116237,no,0.894,382807578432,25.0,100.0,100.0,57198269715,38495457899,3578942798,60777212513,51319486324,47340930443,"weak 44.4; medium 35.7; solid 15.5 (USD bn, base)",29790000000,60777212500,165411000000,23653000000,51319486300,158915000000,18441000000,47340930400,148135000000
+reconciliation,rows_sum_base,,,,95693727614,,,,,,,,,,,,,,,,sum of loss_usd_base over headline rows in export_losses_tidy.csv,,,,,,,,,
+reconciliation,headline_closure_gross_base_usd,,,,95693727614,,,,,,,,,,,,,,,,model headline,,,,,,,,,
+reconciliation,difference_base,,,,0,,,,,,,,,,,,,,,,rows minus headline (USD),,,,,,,,,
+reconciliation,rows_sum_high,,,,165411972119,,,,,,,,,,,,,,,,sum of loss_usd_high incl. 1-28 Oct rows,,,,,,,,,
+reconciliation,headline_closure_high_usd,,,,165411972119,,,,,,,,,,,,,,,,"model headline closure_high_usd (closure_high_usd in the model print: 165,411,972,119)",,,,,,,,,
+reconciliation,difference_high,,,,0,,,,,,,,,,,,,,,,rows minus headline (USD),,,,,,,,,
+reconciliation,rows_sum_windfall,,,,85588611377,,,,,,,,,,,,,,,,sum of price_windfall_usd over headline rows,,,,,,,,,
+reconciliation,headline_windfall_beside_usd,,,,85588611377,,,,,,,,,,,,,,,,model headline,,,,,,,,,
+reconciliation,difference_windfall,,,,0,,,,,,,,,,,,,,,,rows minus headline (USD),,,,,,,,,
+reconciliation,rows_sum_low,,,,95693727614,,,,,,,,,,,,,,,,sum of loss_usd_low (equals base by construction),,,,,,,,,
+reconciliation,rows_sum_destroyed_base,,,,57198269715,,,,,,,,,,,,,,,,headline closure_destroyed_base_usd=57198269715,,,,,,,,,
+reconciliation,rows_sum_margin_base,,,,51319486324,,,,,,,,,,,,,,,,headline closure_margin_lost_base_usd=51319486324,,,,,,,,,
+reconciliation,rows_sum_fiscal_base,,,,47340930443,,,,,,,,,,,,,,,,headline fiscal_take_lost_base_usd_ex_bahrain=47340930443 (Bahrain blank),,,,,,,,,
